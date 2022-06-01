@@ -1,0 +1,32 @@
+.nav-container {
+    position: fixed;
+    top: 0;
+    display: flex; /*mesma linha*/
+    justify-content: space-between; /*para se espacarem*/
+    width: 100%;
+    height: 30px;
+    padding: 20px;
+    z-index: 1;
+
+    /* Animations || navbar fixa quando scrolla */
+    transition-timing-function: easy-in;
+    transition: all 0.5s;
+}
+
+.nav-logo {
+    position: fixed;
+    left: 20px;
+    width: 80px;
+    object-fit: contain;
+}
+
+.nav-avatar {
+    position: fixed;
+    right: 20px;
+    width: 30px;
+    object-fit: contain;
+}
+
+.nav-container-black { /*a barra fixa quando faz o scroll*/
+    background-color: #111;
+}
